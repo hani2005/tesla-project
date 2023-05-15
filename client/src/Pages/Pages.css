@@ -1,0 +1,367 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.register h1 {
+  margin-bottom: 1.6rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.register-content span {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(109, 109, 109);
+}
+
+.register-content input {
+  width: 18rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid;
+  font-size: 1rem;
+}
+
+.register-content input::placeholder {
+  font-size: 0.9rem;
+}
+
+.register button {
+  width: 100%;
+  padding: 0.7rem 0;
+  color: white;
+  background-color: rgb(62, 147, 201);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.log-page a {
+  text-decoration: none;
+  color: rgb(62, 147, 201);
+}
+
+.log-page {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.login h1 {
+  margin-bottom: 1.6rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.login-content span {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(109, 109, 109);
+}
+
+.login-content input {
+  width: 18rem;
+  height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid;
+  font-size: 1rem;
+}
+
+.login-content input::placeholder {
+  font-size: 0.9rem;
+}
+
+.login button {
+  width: 100%;
+  padding: 0.7rem 0;
+  color: white;
+  background-color: rgb(62, 147, 201);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.reg-page a {
+  text-decoration: none;
+  color: rgb(62, 147, 201);
+}
+
+.reg-page {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+  padding-bottom: 6rem;
+}
+
+.account-sidebar  {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-sidebar a {
+  padding-right: 10rem;
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.account-sidebar i {
+  margin-right: 1.2rem;
+}
+
+.account-content {
+  width: 500px;
+}
+
+.account-sidebar button {
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(109, 109, 109);
+  width: 6.7rem;
+  font-weight: 500;
+}
+
+.profile h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+
+.profile-content img {
+  height: 150px;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.profile-content {
+  border: 2px solid rgb(240, 240, 240);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+  padding: 1rem 1.5rem;
+}
+
+.profile-title h3 {
+  font-size: 0.9rem;
+  color: rgb(109, 109, 109);
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.profile-title h4 {
+  font-size: 0.8rem;
+  color: rgb(109, 109, 109);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.profile-title a {
+  text-decoration: underline;
+  font-size: 0.9rem;
+  color: rgb(109, 109, 109);
+}
+
+.settings h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.name h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.name h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.name button {
+  width: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.email h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.email h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.email button {
+  width: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.payment-content img {
+  height: 200px;
+  padding-left: 5.8rem;
+}
+
+.payment-content {
+  border: 2px solid rgb(240, 240, 240);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  height: 380px;
+}
+
+.payment-title {
+  padding: 1.5rem 1.5rem;
+}
+
+.payment-title h3 {
+  font-size: 1rem;
+  color: rgb(109, 109, 109);
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.payment-title h4 {
+  font-size: 0.9rem;
+  color: rgb(109, 109, 109);
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.payment-title button {
+  background-color: transparent;
+  border: 4px solid black;
+  padding: 0.7rem 8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.payment-title button:hover {
+  background-color: black;
+  color: white;
+}
+
+.loot-box h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+
+.loot-box p {
+  color: rgb(109, 109, 109);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.loot-box a {
+  color: rgb(109, 109, 109);
+}
+
+.order-history {
+  border: 2px solid rgb(240, 240, 240);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 330px;
+  height: 220px;
+}
+
+.order-history h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+
+.order-history img {
+  height: 150px;
+  padding-left: 5.5rem;
+}
+
+.order-title {
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-title h4 {
+  color: rgb(109, 109, 109);
+  font-size: 0.9rem;
+  margin-right: 2rem;
+}
+
+.order-title a {
+  color: rgb(109, 109, 109);
+}

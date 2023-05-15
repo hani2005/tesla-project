@@ -1,0 +1,662 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navpages-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 1;
+}
+
+.navpages-title {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navpages-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.navpages-title span {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.navpages-buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: -6rem;
+}
+
+.features {
+  display: flex;
+  color: white;
+  height: 10vh;
+  gap: 80px;
+  margin-bottom: 1rem;
+}
+
+.features-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.features-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.features-content span {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+}
+
+.navpages-inv {
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.5rem 4.5rem;
+  cursor: pointer;
+}
+
+.navpages-order {
+  color: white;
+  background-color: #232425;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.4rem 5rem;
+  cursor: pointer;
+}
+
+.exterior-img img {
+  height: 100%;
+  width: 100%;
+  margin-top: -10rem;
+  z-index: -1;
+  position: relative;
+}
+
+.exterior-content {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.exterior-page {
+  margin-top: -13rem;
+}
+
+.exterior-p p {
+  font-size: 0.95rem;
+  color: rgb(196, 193, 193);
+  margin-top: 2rem;
+  line-height: 1.3rem;
+}
+
+.exterior-title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+.exterior-title h4 {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.exterior-title h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(231, 228, 228);
+}
+
+.exterior-order-btn {
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 0.6rem 2.5rem;
+  font-size: 0.95rem;
+  width: 10rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.exterior-inv-btn {
+  background-color: #232425;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5rem;
+  font-size: 0.95rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.perfomance {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.perfomance-content {
+  display: flex;
+  align-items: center;
+  gap: 145px;
+}
+
+.perfomance img {
+  height: 290px;
+}
+
+.perfomance-title h4 {
+  color: rgb(196, 193, 193);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.perfomance-title p {
+  color: rgb(206, 206, 206);
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+}
+
+.order-car {
+  display: flex;
+  padding: 13rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-car-title h1 {
+  font-weight: 500;
+}
+
+.order-car img {
+  height: 350px;
+  z-index: -1;
+  position: relative;
+}
+
+.order-btn {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  font-weight: 500;
+  padding: 0.6rem 2.5rem;
+  font-size: 0.95rem;
+  width: 13rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.inv-btn {
+  background-color: rgb(228, 228, 228);
+  border: none;
+  color: black;
+  font-weight: 500;
+  padding: 0.7rem 2.5rem;
+  font-size: 0.95rem;
+  width: 13rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.model3-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.model3-title {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.model3-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+  color: white;
+  font-weight: 500;
+}
+
+.model3-title a {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.model3-features {
+  display: flex;
+  color: white;
+  margin-bottom: -5rem;
+  gap: 80px;
+}
+
+.model3-features-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.model3-features-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.model3-features-content span {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+}
+
+.model3-order-btn {
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0rem 4.5rem;
+  cursor: pointer;
+}
+
+.model3-banner {
+  padding: 10rem 0;
+  margin: 2rem 0 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.model3-banner-features {
+  display: flex;
+  color: white;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.model3-banner-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10rem;
+  align-items: center;
+}
+
+.model3-banner-content i {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.model3-banner-content span {
+  font-size: 0.8rem;
+  display: flex;
+  text-align: center;
+}
+
+.model3-awd-content {
+  display: flex;
+  justify-content: center;
+}
+
+.model3-awd-p {
+  letter-spacing: -0.5px;
+  color: rgb(46, 46, 46);
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+
+.model3-awd-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+
+.model3-awd-title h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.model3-awd-title h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  color: black;
+}
+
+.model3-awd-order-btn {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  padding: 0.6rem 2.5rem;
+  font-size: 0.95rem;
+  width: 10rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.model3-awd-inv-btn {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  border: none;
+  padding: 0.7em 1.5rem;
+  font-size: 0.95rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.model3-perfomance-content {
+  display: flex;
+  justify-content: center;
+}
+
+.model3-perfomance-p {
+  color: rgb(46, 46, 46);
+  margin-top: 2rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.5px;
+}
+/* 
+.model3-perfomance-p br {
+  display: none;
+} */
+
+.model3-perfomance-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+
+.model3-perfomance-title h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.model3-perfomance-title h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0.3rem;
+  color: black;
+}
+
+.model3-perfomance-order-btn {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  padding: 0.6rem 2.5rem;
+  font-size: 0.95rem;
+  width: 10rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.model3-perfomance-inv-btn {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+
+.model3-perfomance-buttons i {
+  border-radius: 50%;
+  border: 3px solid black;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
+}
+
+.model3-specs {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 2rem;
+  padding: 5rem 0;
+  gap: 100px;
+}
+
+.model3-specs img {
+  margin-left: -10rem;
+  height: 550px;
+}
+
+.model3-specs-content {
+  display: flex;
+}
+
+.model3-specs-container {
+  color: white;
+}
+
+.model3-specs-container h1 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.model3-specs-container h1 b {
+  margin-left: 0.2rem;
+  font-weight: 300;
+  font-size: 2.1rem;
+}
+
+.model3-specs-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.model3-specs-buttons button {
+  background-color: transparent;
+  color: white;
+  padding: 0.4rem 3rem;
+  border: 4px solid #232425;
+}
+
+.model3-specs-content {
+  gap: 80px;
+}
+
+.model3-specs-content span {
+  margin: 0.4rem 0 1rem 0;
+  font-size: 0.9rem;
+  color: rgb(196, 193, 193);
+}
+
+.model3-specs-content h3 {
+  font-size: 0.95rem;
+}
+
+.model3-specs-content h3 {
+  border-top: 2px solid rgb(196, 193, 193);
+  width: 150px;
+  padding-top: 0.7rem;
+}
+
+.model3-specs-section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.model3-specs-section-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.model3-order-car {
+  display: flex;
+  padding: 13rem 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.model3-order-car-title h1 {
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+
+.model3-order-car-title span {
+  font-size: 0.9rem;
+  color: rgb(61, 61, 61);
+}
+
+.model3-order-car img {
+  height: 200px;
+  z-index: -1;
+  position: relative;
+}
+
+.model3-order-car-btn {
+  background-color: transparent;
+  border: 3px solid black;
+  color: black;
+  font-weight: 500;
+  padding: 0.6rem 2.5rem;
+  font-size: 0.95rem;
+  width: 13rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.model3-inv-car-btn {
+  background-color: rgb(228, 228, 228);
+  border: none;
+  color: black;
+  font-weight: 500;
+  padding: 0.7rem 2.5rem;
+  font-size: 0.95rem;
+  width: 13rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1105px) {
+  .model3-specs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .model3-specs img {
+    margin-left: 0;
+  }
+
+  .model3-perfomance-content {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  .model3-awd-content {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  .model3-order-car {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .model3-specs img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .model3-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .model3-order-car img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .model3-specs-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .model3-specs-buttons button {
+    width: 100%;
+    height: 100%;
+  }
+
+  .model3-order-btn {
+    padding: 0;
+  }
+
+  .model3-banner-features {
+    gap: 20px;
+  }
+
+  .model3-specs-content {
+    flex-direction: column;
+  }
+
+  .model3-order-car-buttons button {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 392px) { 
+  .model3-perfomance-p br {
+    display: none;
+  }
+
+  .model3-perfomance-p {
+    padding-right: 0.5rem;
+  }
+
+  .model3-awd-p br {
+    display: none;
+  }
+
+  .model3-awd-p {
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .perfomance img {
+    height: 150px;
+  } 
+}
